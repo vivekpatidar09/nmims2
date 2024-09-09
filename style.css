@@ -1,0 +1,2502 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
+
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+h3,
+h2,
+h1,
+h4,
+h5 {
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+span {
+  color: #ca1f26;
+}
+
+a {
+  font-family: "Rubik", sans-serif;
+}
+
+.res-card {
+  display: none;
+}
+
+.fixed-btn .fixed-btn {
+  display: none;
+}
+.fixed-btn .fixed-btn2 {
+  display: inline;
+}
+
+/* HEADER START  */
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #444444;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+
+.nmims-logo {
+  width: 20rem;
+  background-color: #fff;
+  height: 64px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.header a:hover {
+  transition: 0.5s;
+  color: #f5c7b0;
+}
+
+.header .menu-btn {
+  font-size: 50px;
+  color: #fff;
+  position: absolute;
+  right: -20rem;
+  cursor: pointer;
+}
+
+.header button {
+  padding: 10px;
+  background-color: #fecb26;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.header button:hover {
+  transition: 0.5s;
+  color: #fff;
+}
+
+/* HEADER END  */
+
+/* form  */
+
+.pop-panel {
+  /* position: fixed; */
+  position: absolute;
+  width: 330px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  top: 4rem;
+}
+
+.pop-panel {
+  background-color: white;
+  padding: 20px;
+  z-index: 1;
+}
+
+.pop-panel .tab-pop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.pop-panel tr {
+  display: flex;
+  flex-direction: column;
+}
+
+.pop-panel input,
+select {
+  margin: 8px auto;
+  font-size: 13px;
+  border-radius: 3px;
+  padding: 10px;
+  border: 0.5px solid rgb(210, 205, 205);
+  width: 90%;
+  outline: none;
+}
+
+.pop-panel select {
+  /* margin: 13px; */
+  width: 100%;
+}
+
+.pop-panel button {
+  background-color: #be201d;
+  color: #ffff;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  padding: 12px;
+  border: none;
+  width: 200px;
+}
+
+/* BANNER */
+
+.banner video {
+  height: 34rem;
+  width: 100%;
+  transform: scaleX(1.5);
+}
+
+.poster .swiper-wrappe .swiper-slide {
+  width: 100%;
+  margin: 50rem;
+  z-index: -1;
+}
+
+.sample-sliderP {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.sample-sliderP img {
+  width: 100%;
+}
+/* 
+.sample-slider img{
+    width: 100%;
+} */
+
+.section-heading {
+  color: #212529;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.form-btn {
+  position: absolute;
+  right: 10px;
+  margin-top: 20px;
+  border: none;
+  padding: 12px;
+  width: 170px;
+  color: #fff;
+  background-color: #be201d;
+}
+
+/* M E D I A  CARD  */
+
+.sample-sliderM1 .card {
+  width: 280px;
+  height: 545px;
+  border-radius: 20px;
+  background: #f1eee9;
+  padding: 10px;
+  overflow: visible;
+  margin: 10px;
+}
+
+.sample-sliderM1 .card img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.sample-sliderM1 .card-content {
+  padding: 20px;
+}
+
+.sample-sliderM1 {
+  display: none;
+}
+
+.sample-sliderM1 .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.sample-sliderM11 .card-detail {
+  padding: 10px;
+}
+
+.sample-sliderM1 .card-detail h3 {
+  font-size: 28px;
+}
+
+.sample-sliderM1 li {
+  font-size: 20px;
+  line-height: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.sample-sliderM1 i {
+  font-size: 50px;
+}
+
+.sample-sliderM1 .apply-now {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.sample-sliderM1 .apply-now button {
+  text-decoration: none;
+  background-color: #dc3545;
+  color: white;
+  position: absolute;
+  bottom: 19px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* card */
+
+.programOffered .parent-card .card1 .card img {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.programOffered button {
+  cursor: pointer;
+}
+
+.programOffered .card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 10px;
+  width: 400px;
+  height: 62rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.programOffered .card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.programOffered .card-content {
+  padding: 20px;
+}
+
+.programOffered .card-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.programOffered .card-content p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.programOffered .card-content ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.programOffered .card-content ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.programOffered .card-content ul li::before {
+  position: absolute;
+  content: "•";
+  color: rgb(34, 34, 34);
+  top: 4px;
+  left: 0px;
+  text-align: center;
+  font-size: 0.7em;
+  opacity: 0.5;
+  line-height: 0.8;
+  transition: 0.5s;
+}
+
+.programOffered .apply-now {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.programOffered .apply-now button {
+  text-decoration: none;
+  background-color: #dc3545;
+  color: white;
+  position: absolute;
+  bottom: 110px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.programOffered .apply-now a:hover {
+  background-color: #c82333;
+}
+
+/* ////////// */
+
+.card1 {
+  display: flex;
+  padding: 30px 0;
+  position: relative;
+}
+
+.slide-btn {
+  font-size: 50px;
+  color: #929a9a;
+  margin: 20px;
+}
+
+.main-card .crowsal button {
+  display: none;
+}
+
+.card1 img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card1 .card-detail {
+  padding: 10px;
+}
+
+.card1 li {
+  font-size: 15px;
+  line-height: 23px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* card 2 */
+
+.startYourRegistration {
+  display: flex;
+  background-color: #f5f5f5;
+  margin: 2rem 0;
+  margin-bottom: 0;
+}
+
+.startYourRegistration .card {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  overflow: visible;
+}
+
+.startYourRegistration .card-detail {
+  background-color: #f7f7f7;
+  height: 95%;
+  border: 0.5px solid #d0cdcd;
+}
+
+.startYourRegistration .div1 {
+  border-bottom: 0.5px solid #d0cdcd;
+  padding: 20px 30px;
+}
+
+.startYourRegistration .sections {
+  margin: 4rem 0;
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.startYourRegistration .sec1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  padding: 6rem 0;
+}
+
+.startYourRegistration .sec2 {
+  width: 50%;
+  padding: 32px 0;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+}
+
+.startYourRegistration .card p {
+  font-family: "Roboto", sans-serif;
+}
+
+.startYourRegistration .card p,
+h4 {
+  margin: 27px 0;
+}
+
+.startYourRegistration .div2 {
+  padding: 0 32px;
+}
+
+.startYourRegistration .sections .sec2 .steps-navigation {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
+  /* margin: 20px 0; */
+}
+
+.startYourRegistration .sections .sec2 .step {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 3px solid transparent;
+}
+
+.startYourRegistration .sections .sec2 .step.active {
+  border-bottom: 3px solid red;
+  color: red;
+}
+
+.startYourRegistration .sections .sec2 .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.startYourRegistration .sections .sec2 .left-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.startYourRegistration .sections .sec2 .left-panel img {
+  max-width: 80%;
+}
+
+.startYourRegistration .sections .sec2 .left-panel p {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.startYourRegistration .sections .sec2 .right-panel {
+  flex: 1;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.startYourRegistration .sections .sec2 .right-panel h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.startYourRegistration .sections .sec2 .right-panel a:nth-child(4) {
+  font-weight: 200;
+  color: #ffa500;
+}
+
+.startYourRegistration .sections .sec2 .right-panel a:nth-child(4):hover {
+  font-weight: 200;
+  color: #ffa500;
+  text-decoration: underline;
+}
+
+.startYourRegistration .sections .sec2 .right-panel span {
+  font-weight: 200;
+}
+
+.startYourRegistration .sections .sec2 .right-panel span:hover {
+  font-weight: 200;
+  text-decoration: underline;
+  color: blue;
+}
+
+.startYourRegistration .sections .sec2 .step-content {
+  width: 100%;
+}
+
+.startYourRegistration .sections .sec2 .right-panel .state-city {
+  display: flex;
+  gap: 5px;
+}
+
+.startYourRegistration .sections .sec2 .right-panel .state-city .input-group {
+  width: 50%;
+}
+
+.startYourRegistration .sections .sec2 .input-group {
+  margin-bottom: 20px;
+}
+
+.startYourRegistration .sections .sec2 .input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.startYourRegistration .sections .sec2 .input-group input,
+.startYourRegistration .sections .sec2 .input-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.startYourRegistration .sections .sec2 .captcha-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.startYourRegistration .sections .sec2 .captcha-img {
+  height: 40px;
+}
+
+.startYourRegistration .sections .sec2 .checkbox-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.startYourRegistration .sections .sec2 a {
+  text-decoration: none;
+}
+
+.startYourRegistration .sections .sec2 .submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #ca1f26;
+  color: white;
+  transition: 0.5s;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.startYourRegistration .sections .sec2 .submit-btn:hover {
+  background-color: darkred;
+}
+
+/* PLACEMENTS  */
+
+.placements {
+  background-color: #eee9d9;
+  padding: 40px 0;
+  background: url("placements.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #6b010a;
+  /* background-color: #914a4a; */
+  /* background-color: #f1eee9; */
+  background-blend-mode: soft-light;
+}
+
+.placements .crowsal2 {
+  display: none;
+}
+
+.placements .cards {
+  display: flex;
+}
+
+.placements .cards .card {
+  background-color: #ffffff;
+  display: flex;
+  padding: 20px;
+  width: 25rem;
+  margin: 20px;
+}
+
+.placements .cards .card img {
+  position: relative;
+  right: 1px;
+  bottom: 1px;
+}
+
+.placements .cards .card p::after {
+  content: "";
+  display: block;
+  background-color: #d83f37;
+  width: 30%;
+  margin-top: 15px;
+  height: 1px;
+}
+
+.placements .card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+.placements .card-container .parent-card {
+  margin: 5rem 0;
+}
+
+.placements .card-wrapper {
+  position: relative;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.placements .card-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: 13px;
+  right: 159px;
+  bottom: 44px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  z-index: 0;
+}
+
+.placements .card-wrapper2::before {
+  content: "";
+  position: absolute;
+  top: 24px;
+  left: 48px;
+  right: -1px;
+  bottom: 164px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  z-index: 0;
+}
+
+.placements .card {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  height: 200px;
+  margin: 0 20px;
+  max-width: 468px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.placements .card-header {
+  font-weight: lighter;
+  color: #d0021b;
+  margin: 0px;
+  font-size: 2rem;
+}
+
+.placements .cards .card .card-header h2 {
+  margin: 0;
+}
+
+.placements .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.placements .salary h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 10px 0;
+  font-weight: 400;
+  color: rgb(103, 102, 102);
+}
+
+.placements .salary span {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.placements hr {
+  border: none;
+  border-top: 1px solid #d0021b;
+  width: 10rem;
+  margin: 10px 0;
+}
+
+.placements .card-footer {
+  text-align: right;
+}
+
+.placements .card-footer img {
+  width: 240px;
+  position: relative;
+  bottom: 150px;
+  /* opacity: 0.3; */
+}
+
+.placements .col1 {
+  margin: 5rem 0;
+  margin-top: 1rem;
+}
+
+.placements .col1 img {
+  filter: invert(45%) grayscale(15%) brightness(150%) contrast(4);
+  width: 85%;
+}
+
+.placements .col1 img:hover {
+  filter: unset;
+}
+
+/* ACCREDITATIONS  */
+
+.accreditations {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.accreditations .res-card {
+  display: none;
+}
+
+.accreditations .silver-img {
+  z-index: 1;
+  width: 19rem;
+  margin: 60px 0;
+}
+
+.accreditations .logo {
+  width: 80px;
+  position: absolute;
+  left: 7rem;
+  top: 15px;
+}
+
+.accreditations .img-center {
+  display: grid;
+}
+
+.accreditations p {
+  width: 201px;
+  text-align: center;
+  position: absolute;
+  left: 3.5rem;
+  top: 85px;
+  font-size: 12px;
+}
+
+.accreditations .column {
+  display: flex;
+  /* position: absolute; */
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+
+.accreditations .img-center .img-para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+
+/* DIV A  */
+
+.notableAlumni {
+  padding: 20px;
+  background-color: #2f6193;
+}
+
+.notableAlumni .crowsal2 {
+  display: none;
+}
+
+.notableAlumni .card {
+  max-width: 224px;
+  height: 14rem;
+  background-color: #ffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 21px;
+  margin: 50px 0px;
+}
+
+.notableAlumni .cards {
+  display: flex;
+}
+
+.notableAlumni .card .sec1 {
+  display: flex;
+  height: 6rem;
+}
+
+.notableAlumni .image-container {
+  width: 204px;
+  height: 124px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  top: -45px;
+  z-index: 5;
+}
+
+.notableAlumni .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.notableAlumni .batch-info {
+  background: linear-gradient(to right, #d6d6d6, #ffffff);
+  color: #4b6983;
+  height: 2rem;
+  width: 10rem;
+  padding: 8px 10px;
+  position: relative;
+  left: -15px;
+  margin: 10px 0;
+}
+
+.notableAlumni .batch-info .batch-info .year {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.notableAlumni .info {
+  height: 6rem;
+}
+
+.notableAlumni span {
+  font-weight: 600;
+  color: #07315c;
+}
+
+.notableAlumni .info h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.info p {
+  font-size: 14px;
+  color: #555;
+}
+
+.notableAlumni .company-logo {
+  width: 104px;
+  height: 75px;
+  left: 63px;
+  background-color: azure;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  bottom: 26px;
+  z-index: 9;
+}
+
+.notableAlumni .company-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.notableAlumni .slide-btn {
+  margin: 0;
+}
+
+/* Style for the card */
+.campuses .card {
+  position: relative;
+  width: 330px;
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+/* Container for the image and overlay */
+.campuses .image-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+/* Style for the image */
+.campuses .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Overlay styling */
+.campuses .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Show overlay on hover */
+.campuses .card:hover .overlay {
+  opacity: 1;
+}
+
+/* Card text */
+.campuses .card-text {
+  padding: 16px;
+  height: 9rem;
+}
+
+.campuses .card-text h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.campuses .card-text p {
+  font-size: 14px;
+  color: grey;
+}
+
+.campuses i {
+  color: #dbdbdb;
+  background-color: #ca1f26;
+  border-radius: 50%;
+  font-size: 40px;
+}
+
+.campuses {
+  text-align: center;
+  font-size: 20px;
+  background-image: url("https://nmimscet.in/images/stats-bg11.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5rem 0;
+  background-color: #5a5a5a;
+  background-blend-mode: soft-light;
+  background-position: right;
+}
+
+.crowsal {
+  display: flex;
+}
+
+.crowsal1 {
+  display: none;
+}
+
+.campuses img {
+  width: 19rem;
+}
+
+.campuses .slider {
+  display: flex;
+  margin: 20px 0;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.slider i {
+  font-size: 40px;
+}
+
+/* Life at NMIMS */
+
+.LifeAtNMIMS {
+  padding: 0 50px;
+}
+
+.LifeAtNMIMS h1 {
+  margin: 4rem 0;
+}
+
+.LifeAtNMIMS .image-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.LifeAtNMIMS .image-card {
+  position: relative;
+  width: 17rem;
+  height: 15rem;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.LifeAtNMIMS .image-card:nth-child(1) {
+  width: 32rem;
+}
+
+.LifeAtNMIMS .image-card:nth-child(2) {
+  width: 20rem;
+}
+
+.LifeAtNMIMS .image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.LifeAtNMIMS .image-card:hover img {
+  transform: scale(1.1); /* Zoom effect */
+  filter: blur(2px); /* Slight blur effect on hover */
+}
+
+/* Overlay styling */
+.LifeAtNMIMS .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #004a9fcc; /* Semi-transparent blue overlay */
+  padding: 10px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px; /* Overlay height */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Overlay content (icon and text) */
+.LifeAtNMIMS .overlay-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LifeAtNMIMS .overlay-content .icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.LifeAtNMIMS .image-card:hover .overlay {
+  background-color: #004a9fcc; /* Semi-transparent blue overlay */
+  opacity: 1; /* Show overlay on hover */
+}
+
+.LifeAtNMIMS .hover-effect img {
+  cursor: pointer;
+}
+
+/* NMIMS AT A GLANCE  */
+
+.nmimsGLANCE {
+  padding: 40px;
+}
+
+.nmimsGLANCE .crowsal {
+  display: none;
+}
+
+.nmimsGLANCE p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 2ren 0;
+  color: #212529;
+  text-align: center;
+}
+
+.nmimsGLANCE .card {
+  display: flex;
+  margin: 2rem auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.nmimsGLANCE .img-column {
+  padding: 0 30px;
+  width: 11rem;
+  margin: 10px 0px;
+  border-right: 1px solid rgb(216, 214, 214);
+}
+
+.nmimsGLANCE .img-column h1 {
+  margin: 18px;
+  font-size: 33px;
+}
+
+.nmimsGLANCE .img-column img {
+  width: 4rem;
+}
+
+.nmimsGLANCE .img-column h4 {
+  margin: 7px;
+  font-size: 13px;
+  color: #6b6b6b;
+}
+
+/* MILESTONES */
+
+.milestones {
+  background-color: #222;
+  padding: 45px;
+}
+
+.milestones .crowsal2 {
+  display: none;
+}
+
+.milestones h1 {
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.milestones .slide-btn {
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  background-color: #ffc107;
+  height: 32px;
+  cursor: pointer;
+  padding: 0 22px;
+}
+
+.milestones .btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.milestones .crowsal1 {
+  display: none;
+}
+
+.milestones .card-with-line {
+  color: #fff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.milestones .year-line {
+  display: flex;
+  align-items: center;
+}
+
+.milestones .year-line h1 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.milestones .year-line hr {
+  flex-grow: 1;
+  margin-left: 10px;
+  border: none;
+  border-top: 1px solid #666;
+}
+
+.milestones .card-with-line p {
+  font-size: 16px;
+  margin: 10px 0 0;
+}
+
+.milestones .card-with-line strong {
+  font-weight: bold;
+}
+
+/* FOOTER */
+
+/* Footer Styles */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 70px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  gap: 10rem;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  max-width: 40%;
+}
+
+.footer-left h2 {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 13px;
+  line-height: 20px;
+  margin: 5px 0;
+}
+
+.footer-left p:nth-child(2) {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.footer-left hr {
+  border: none;
+  border-top: 1px solid #ffffff;
+  margin: 20px 0;
+}
+
+.social-icons i {
+  font-size: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #ffae00;
+  transition: 0.3s;
+}
+
+/* Style for the right section */
+.footer-right {
+  max-width: 35%;
+}
+
+.footer-right h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.footer-right h3::after {
+  content: "";
+  display: block;
+  width: 10rem;
+  margin: 14px 0px;
+  height: 2px;
+  background-color: #b30000;
+  /* position: absolute; */
+  bottom: -5px;
+}
+
+.footer-right p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footer-right a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-right a:hover {
+  color: #ffae00;
+  text-decoration: none;
+}
+
+.footer-right a:nth-child(1):hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+/* Bottom footer styles */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #666;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.f2,
+.r-f2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.f2 p {
+  font-size: 15px;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.f2 {
+  background-color: #252525;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f2 i {
+  color: #ffff;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.f2 .r-f2 {
+  margin: 0 30px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    gap: 0;
+    flex-direction: column;
+  }
+
+  .footer-left,
+  .footer-right {
+    max-width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* DIV B  */
+
+.divB p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.divB {
+  margin: 60px 0;
+}
+
+/* DIV C  */
+
+.divC {
+  background-color: #f1eee9;
+  padding: 20px 50px;
+  padding-bottom: 67px;
+}
+
+.divC p {
+  margin: -11px 0;
+  font-size: 20px;
+}
+
+.divC h3 {
+  color: #cd0f0f;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+/* DIV E  */
+
+.divE {
+  background-color: #f1eee9;
+  padding: 20px;
+}
+
+.divE button {
+  display: none;
+}
+
+.res-card .slide-btn {
+  display: none;
+}
+
+.divE .crowsal {
+  display: none;
+}
+
+.res-card {
+  display: inline-block;
+}
+
+.divE h1 {
+  margin: 0px;
+}
+
+.divE p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.divE .img-column {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+}
+
+.divE .img-column p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.divE img {
+  width: 120px;
+}
+
+.divE .card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  margin: auto;
+  width: 1px;
+}
+
+/* DIV F  */
+
+/* DIV G  */
+
+.divG h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  padding: 0 65px;
+}
+
+.divG span {
+  font-weight: 800;
+}
+
+.divG .crowsal1 {
+  display: none;
+}
+
+.divG {
+  background-color: #eee9d9;
+  padding: 40px 0;
+  background: url("https://ncet.nmims.edu/images/students-banner.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  /* background-color: #914a4a; */
+  background-color: #f1eee9;
+  background-blend-mode: soft-light;
+}
+
+.divG img {
+  margin: 5px;
+}
+
+.divG .slider {
+  display: flex;
+}
+
+.campuses .images-list {
+  display: grid;
+  overflow-x: auto;
+  grid-template-columns: repeat(9, 1fr);
+  scrollbar-width: none;
+}
+
+.divG .images-list {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.main-container .bottom-btn {
+  width: 100%;
+  background-color: #cd0f0f;
+  color: #fff;
+  padding: 16px;
+  font-size: 20px;
+  position: fixed;
+  bottom: 1px;
+  z-index: 5;
+}
+
+.main-container .right-btn {
+  width: 220px;
+  display: none;
+  background-color: #d63213;
+  color: #fff;
+  padding: 16px;
+  top: 30rem;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  font-size: 25px;
+  position: fixed;
+  transform: rotate(270deg);
+  right: -65px;
+  z-index: 5;
+}
+
+.main-container .right-btn2 {
+  width: 170px;
+  background-color: #d63213;
+  color: #fff;
+  padding: 12px;
+  top: 25rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 13px;
+  position: fixed;
+  transform: rotate(270deg);
+  right: -65px;
+  z-index: 5;
+}
+
+/* MEDIA SCREEN  */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  br {
+    display: none;
+  }
+
+  .main-container .right-btn2 {
+    width: 220px;
+    background-color: #d63213;
+    color: #fff;
+    padding: 16px;
+    top: 60rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 25px;
+    position: fixed;
+    transform: rotate(270deg);
+    right: -65px;
+    z-index: 5;
+  }
+  
+  .main-container .right-btn {
+    width: 220px;
+    display: inline;
+    background-color: #d63213;
+    color: #fff;
+    padding: 16px;
+    top: 30rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 25px;
+    position: fixed;
+    transform: rotate(270deg);
+    right: -65px;
+    z-index: 5;
+  }
+  
+
+  .header {
+    z-index: 9;
+  }
+
+  .header .menu-btn {
+    display: inline;
+    visibility: visible;
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    right: 3rem;
+    cursor: pointer;
+  }
+
+  .nav-list {
+    visibility: hidden;
+    display: flex;
+    top: 60px;
+    position: absolute;
+    background-color: #444444;
+    margin: auto;
+    z-index: 1;
+    padding: 30px;
+    width: 46.3rem;
+    flex-direction: column;
+    border-top: 2px solid rgb(131, 130, 130);
+  }
+
+  .programOffered button {
+    visibility: hidden;
+  }
+
+  .programOffered {
+    display: none;
+  }
+
+  .main-card {
+    display: inline;
+  }
+
+  .startYourRegistration .sections {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .startYourRegistration .sec1 {
+    width: 100%;
+  }
+
+  .startYourRegistration .sec2 {
+    width: 100%;
+  }
+
+  .main-card .crowsal button {
+    display: inline-block;
+  }
+
+  .sample-sliderM1 .card {
+    width: 453px;
+    height: auto;
+    border-radius: 20px;
+    background: #f1eee9;
+    padding: 0px;
+    overflow: visible;
+    overflow: hidden;
+    margin: 10px;
+  }
+
+  .sample-sliderM1 .card .card-detail {
+    padding: 30px;
+  }
+
+  .sample-sliderM1 button {
+    text-decoration: none;
+    background-color: #dc3545;
+    color: white;
+    position: absolute;
+    bottom: -18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .sample-sliderM1 {
+    display: inline-block;
+  }
+
+  .crowsal1 {
+    display: inline-block;
+  }
+
+  .placements .crowsal {
+    display: none;
+  }
+
+  .placements .col1 .crowsal {
+    display: flex;
+    align-items: center;
+  }
+
+  .placements .card {
+    padding: 20px;
+    height: 200px;
+    width: 29rem;
+  }
+
+  .placements .card-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .placements .card-wrapper2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .placements .card-wrapper2::before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: 97px;
+    right: 38px;
+  }
+
+  .placements .card-wrapper::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 40px;
+  }
+
+  .placements .crowsal2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .accreditations p {
+    margin: 46px 0;
+  }
+
+  .notableAlumni .card {
+    margin: 50px auto;
+    max-width: 215px;
+  }
+
+  .notableAlumni .crowsal {
+    display: none;
+  }
+
+  .notableAlumni .crowsal2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .LifeAtNMIMS .image-card:nth-child(1) {
+    width: 43rem;
+  }
+
+  .LifeAtNMIMS .image-card {
+    position: relative;
+    width: 21rem;
+  }
+
+  .milestones .card-with-line {
+    color: #fff;
+    padding: 27px;
+    font-family: Arial, sans-serif;
+    width: 382px;
+    border-radius: 8px;
+  }
+
+  .campuses .crowsal1 .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+
+  .res-card,
+  button {
+    display: inline;
+  }
+
+  .apply p {
+    font-weight: 100;
+    text-align: center;
+    color: rgb(94, 92, 92);
+    font-size: 29px;
+  }
+
+  .accreditations .sample-sliderM1 {
+    display: inline-block;
+  }
+
+  .main-container {
+    width: 50rem;
+    overflow-x: hidden;
+  }
+
+  /* card 2  */
+  .startYourRegistration .card-detail {
+    font-size: 24px;
+  }
+
+  .startYourRegistration .card {
+    height: 100%;
+  }
+
+  .form-btn {
+    display: none;
+  }
+
+  .card1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 70px;
+  }
+
+  .campuses,
+  .divB {
+    padding: 0 20px;
+  }
+
+  .campuses {
+    padding: 30px;
+  }
+
+  .nmimsGLANCE .img-column h1 {
+    font-size: 29px;
+  }
+
+  .header button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    margin: 20px 0;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fecb26;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+
+  .header a {
+    text-align: start;
+    font-size: 23px;
+  }
+
+  .header span {
+    display: none;
+  }
+
+  .header select {
+    width: 180px;
+    color: #fff;
+    background: none;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    outline: none;
+    text-align: start;
+    font-size: 23px;
+    margin: -5px;
+  }
+
+  .header select option {
+    width: 50px;
+    font-size: 20px;
+  }
+
+  .accreditations .column {
+    display: none;
+  }
+
+  .accreditations .silver-img {
+    z-index: -1;
+    width: 35rem;
+    margin: 40px 0;
+  }
+
+  .accreditations .logo {
+    width: 120px;
+    position: absolute;
+    left: 14rem;
+    top: 15px;
+  }
+
+  .accreditations .slide-btn {
+    display: inline;
+  }
+
+  .accreditations p {
+    width: 382px;
+    text-align: center;
+    position: absolute;
+    left: 6rem;
+    top: 102px;
+    font-size: 22px;
+  }
+
+  .nmimsGLANCE {
+    margin: 3rem 0;
+  }
+
+  .nmimsGLANCE .img-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    font-size: 30px;
+  }
+
+  .nmimsGLANCE .img-column img {
+    width: 14rem;
+  }
+
+  .nmimsGLANCE .crowsal {
+    display: inline;
+    display: flex;
+  }
+
+  .nmimsGLANCE .card {
+    display: none;
+  }
+
+  .nmimsGLANCE p {
+    font-size: 30px;
+  }
+
+  .campuses .crowsal1 {
+    display: flex;
+  }
+
+  /* div H  */
+
+  .milestones .crowsal1 {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .milestones .crowsal {
+    display: none;
+  }
+
+  .milestones .crowsal2 {
+    display: inline;
+  }
+
+  .milestones iframe {
+    width: 29rem;
+    height: 23rem;
+    margin: 16px;
+  }
+
+  .milestones .crowsal1 .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+
+  .divG .crowsal1 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .divG .slider {
+    display: flex;
+    justify-content: center;
+  }
+
+  .divG img {
+    display: flex;
+    margin: 20px auto;
+    width: 290px;
+    justify-content: center;
+  }
+
+  .divG .crowsal {
+    display: none;
+  }
+
+  .campuses .crowsal {
+    display: none;
+  }
+
+  .divB {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .divB p {
+    font-size: 30px;
+  }
+
+  .f2 {
+    background-color: #000;
+    width: 100%;
+    font-size: 36px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .f2 p {
+    font-size: 20px;
+    margin: 3px;
+  }
+
+  .fixed-btn {
+    display: inline;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    z-index: 9;
+  }
+
+  .main-container .right-btn2 {
+    width: 220px;
+    background-color: #d63213;
+    color: #fff;
+    padding: 16px;
+    top: 60rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 25px;
+    position: fixed;
+    transform: rotate(270deg);
+    right: -65px;
+    z-index: 5;
+  }
+    
+  .main-container .right-btn {
+    width: 220px;
+    display: inline;
+    background-color: #d63213;
+    color: #fff;
+    padding: 16px;
+    top: 30rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 25px;
+    position: fixed;
+    transform: rotate(270deg);
+    right: -65px;
+    z-index: 5;
+  }
+  
+  
+
+  .header .menu-btn {
+    display: inline;
+    visibility: visible;
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    right: 3rem;
+    cursor: pointer;
+  }
+
+  .nav-list {
+    visibility: hidden;
+    display: flex;
+    top: 60px;
+    position: absolute;
+    background-color: #444444;
+    margin: auto;
+    z-index: 1;
+    padding: 30px;
+    width: 46.3rem;
+    flex-direction: column;
+    border-top: 2px solid rgb(131, 130, 130);
+  }
+
+  br {
+    display: none;
+  }
+
+  .programOffered button {
+    visibility: hidden;
+  }
+
+  .programOffered {
+    display: none;
+  }
+
+  .main-card {
+    display: inline;
+  }
+
+  .startYourRegistration .sections {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .startYourRegistration .sec1 {
+    width: 100%;
+  }
+
+  .startYourRegistration .sec2 {
+    width: 100%;
+  }
+
+  .main-card .crowsal button {
+    display: inline-block;
+  }
+
+  .sample-sliderM1 .card {
+    width: 453px;
+    height: auto;
+    border-radius: 20px;
+    background: #f1eee9;
+    padding: 0px;
+    overflow: visible;
+    overflow: hidden;
+    margin: 10px;
+  }
+
+  .sample-sliderM1 .card .card-detail {
+    padding: 30px;
+  }
+
+  .sample-sliderM1 button {
+    text-decoration: none;
+    background-color: #dc3545;
+    color: white;
+    position: absolute;
+    bottom: -18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .sample-sliderM1 {
+    display: inline-block;
+  }
+
+  .crowsal1 {
+    display: inline-block;
+  }
+
+  .placements .crowsal {
+    display: none;
+  }
+
+  .placements .col1 .crowsal {
+    display: flex;
+    align-items: center;
+  }
+
+  .placements .card {
+    padding: 20px;
+    height: 200px;
+    width: 29rem;
+  }
+
+  .placements .card-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .placements .card-wrapper2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .placements .card-wrapper2::before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: 97px;
+    right: 38px;
+  }
+
+  .placements .card-wrapper::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 40px;
+  }
+
+  .placements .crowsal2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .accreditations p {
+    margin: 46px 0;
+  }
+
+  .notableAlumni .card {
+    margin: 50px auto;
+    max-width: 215px;
+  }
+
+  .notableAlumni .crowsal {
+    display: none;
+  }
+
+  .notableAlumni .crowsal2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .LifeAtNMIMS .image-card:nth-child(1) {
+    width: 43rem;
+  }
+
+  .LifeAtNMIMS .image-card {
+    position: relative;
+    width: 21rem;
+  }
+
+  .milestones .card-with-line {
+    color: #fff;
+    padding: 27px;
+    font-family: Arial, sans-serif;
+    width: 382px;
+    border-radius: 8px;
+  }
+
+  .campuses .crowsal1 .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+
+  .res-card,
+  button {
+    display: inline;
+  }
+
+  .apply p {
+    font-weight: 100;
+    text-align: center;
+    color: rgb(94, 92, 92);
+    font-size: 29px;
+  }
+
+  .accreditations .sample-sliderM1 {
+    display: inline-block;
+  }
+
+  .main-container {
+    width: 50rem;
+    overflow-x: hidden;
+  }
+
+  /* card 2  */
+  .startYourRegistration .card-detail {
+    font-size: 24px;
+  }
+
+  .startYourRegistration .card {
+    height: 100%;
+  }
+
+  .form-btn {
+    display: none;
+  }
+
+  .card1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 70px;
+  }
+
+  .campuses,
+  .divB {
+    padding: 0 20px;
+  }
+
+  .campuses {
+    padding: 30px;
+  }
+
+  .nmimsGLANCE .img-column h1 {
+    font-size: 29px;
+  }
+
+  .header button {
+    padding: 10px;
+    background-color: #c82333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    margin: 20px 0;
+    width: 200px;
+    border-radius: 5px;
+  }
+
+  .header a {
+    text-align: start;
+    font-size: 23px;
+  }
+
+  .header span {
+    display: none;
+  }
+
+  .header select {
+    width: 180px;
+    color: #fff;
+    background: none;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    outline: none;
+    text-align: start;
+    font-size: 23px;
+    margin: -5px;
+  }
+
+  .header select option {
+    width: 50px;
+    font-size: 20px;
+  }
+
+  .accreditations .column {
+    display: none;
+  }
+
+  .accreditations .silver-img {
+    z-index: -1;
+    width: 35rem;
+    margin: 40px 0;
+  }
+
+  .accreditations .logo {
+    width: 120px;
+    position: absolute;
+    left: 14rem;
+    top: 15px;
+  }
+
+  .accreditations .slide-btn {
+    display: inline;
+  }
+
+  .accreditations p {
+    width: 382px;
+    text-align: center;
+    position: absolute;
+    left: 6rem;
+    top: 102px;
+    font-size: 22px;
+  }
+
+  .nmimsGLANCE {
+    margin: 3rem 0;
+  }
+
+  .nmimsGLANCE .img-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    font-size: 30px;
+  }
+
+  .nmimsGLANCE .img-column img {
+    width: 14rem;
+  }
+
+  .nmimsGLANCE .crowsal {
+    display: inline;
+    display: flex;
+  }
+
+  .nmimsGLANCE .card {
+    display: none;
+  }
+
+  .nmimsGLANCE p {
+    font-size: 30px;
+  }
+
+  .campuses .crowsal1 {
+    display: flex;
+  }
+
+  /* div H  */
+
+  .milestones .crowsal1 {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .milestones .crowsal {
+    display: none;
+  }
+
+  .milestones .crowsal2 {
+    display: inline;
+  }
+
+  .milestones iframe {
+    width: 29rem;
+    height: 23rem;
+    margin: 16px;
+  }
+
+  .milestones .crowsal1 .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+
+  .divG .crowsal1 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .divG .slider {
+    display: flex;
+    justify-content: center;
+  }
+
+  .divG img {
+    display: flex;
+    margin: 20px auto;
+    width: 290px;
+    justify-content: center;
+  }
+
+  .divG .crowsal {
+    display: none;
+  }
+
+  .campuses .crowsal {
+    display: none;
+  }
+
+  .divB {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .divB p {
+    font-size: 30px;
+  }
+
+  .f2 {
+    display: none;
+    /* background-color: #000;
+    width: 100%;
+    font-size: 36px;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    margin-bottom: 40px; */
+  }
+
+  .f2 p {
+    font-size: 20px;
+    margin: 3px;
+  }
+
+  .fixed-btn {
+    display: inline;
+  }
+}
